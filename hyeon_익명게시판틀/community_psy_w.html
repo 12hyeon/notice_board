@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>심리 게시판 text</title>
+  <style>
+    .top_bar {
+      background-color: gold;
+      padding: 40px;
+    }
+    li {
+      list-style: none;
+    }
+
+    .w_top {
+      text-align: center;
+    }
+    .w_top div {
+      display: inline;
+      text-align: left;
+    }
+    .w_top div:nth-child(3) {
+      float: right;
+    }
+    .w_middle {
+      margin: 20px;
+    }
+    .w_middle span {
+      display: inline-block;
+      align-items: center;
+    }
+    .text {
+      display: block;
+    }
+    .w_bottom {
+    padding: 5px;
+    }
+    #comment, #com_bottom {
+      border-bottom: 1px solid black;
+      padding: 20px 0px;
+    }
+    #comment div, #com_bottom div {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .com_main {
+      display: inline;
+    }
+    #com_box1 {
+      text-align: center;
+      width: 100px;
+      margin-top: 10px;
+    }
+    #report {
+      padding:20px 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class = "top_bar">
+      <div class = "top_bar_item">
+          <i class="fas fa-subway fa-2x"></i>
+          <span>4STUP역</span>
+      </div>
+      <div class = "top_bar_item">
+        <input type="text" placeholder="Search">
+        <i class="fas fa-search"></i>  
+      </div>
+      <div class = "top_bar_item">
+        <a href="login.html">
+          <input name="login" type="button" value="로그인">
+        </a>
+        <br>
+        <a href="sign.html">
+          <input name="sign_up" type="button" value="회원가입">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class = "nav_menu">
+      공지사항 <i class="fas fa-chevron-down"></i>
+      <div class="nav_sub">
+        <span>사이트 소개</span>
+        <span><a href="notice_rule.html">규칙</a></span>
+      </div>
+    </div>
+    <div class="nav_menu">커뮤니티 <i class="fas fa-chevron-down"></i>
+      <div class="nav_sub">
+        <span>연애</span>
+        <span>진로</span>
+        <span><a href="community_ psy.html">심리</a></span>
+      </div>
+    </div>
+    <div class="nav_menu">
+      서비스 <i class="fas fa-chevron-down"></i>
+    </div>
+    <div class="nav_menu">
+      작성한 글 <i class="fas fa-chevron-down"></i>
+    </div>
+  </nav>
+
+  <section>
+    <div class="w_top">
+      <div>[연애]</div>
+      <div> 연애고민</div>
+      <div>
+        <i class="fas fa-user-circle fa-lg"></i> 익명
+        <input type="button" value="수정">
+        <input type="button" value="삭제">
+      </div>
+      <hr>
+    </div>
+    <div class="w_middle">
+      <div class="text">
+        .<br>.<br>.<br>.<br>.<br>.<br>
+      </div>
+    </div>
+    <div id="w_bottom">
+      <span><i class="fas fa-heart"></i>2</span>
+      <span><i class="far fa-comment"></i>1</span>
+      <hr>
+      <div id="comment">
+        <div id="com_box1">
+          <i class="fas fa-user-circle fa-lg"></i><br>익명
+        </div>
+        <div id="com_box2">
+          댓글 작성됨<br><br><span id="report"><a href="">작성/신고</span>
+          </div></a>
+      </div>
+      <div id="com_bottom">
+        <div id="com_box1">
+          <i class="fas fa-user-circle fa-lg"></i><span><br>ID</span>
+        </div>
+        <div id="wr_box2">
+          <textarea></textarea><br>
+          <input type="submit">
+          <input type="radio" name="chk">익명사용
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class = "bottom_bar">
+      <h4><a href="">이용약관</a>
+        <a href="">개인정보처리</a>
+        <a href="">문의하기</a>
+      </h4>
+    </div>
+  </footer>
+  
+  <script src="https://kit.fontawesome.com/e0962cb232.js" crossorigin="anonymous"></script>
+</body>
+</html>
