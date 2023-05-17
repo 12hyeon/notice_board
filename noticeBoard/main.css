@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Nunito&display=swap');
+
+/* 글꼴 설정: 영문>Nunito, 한글>나눔고딕 */
+* {
+    font-family: Nunito, Nanum Gothic Coding;
+}
+
+body {margin: 0; font-family: sans-serif; background: #f1f1f1;}
+
+li {list-style: none;}
+a {text-decoration: none; color: inherit; /* 링크의 밑줄, 색상 제거 */}
+
+.bar {background-color: #32355d; display: flex; justify-content: space-around; align-items: center; width: 100%;}
+.home {display: flex; align-items: center;}
+
+.menu > ul {display: flex; padding: 10px; margin: 0;}
+.btn > ul {display: flex; padding: 10px; margin: 0;}
+
+.home > a > img {height: 50px; padding: 10px;}
+.homepage {font-size: 30px; font-weight: bold; color: aliceblue; padding: 20px;}
+.menu ul li a {font-size: 30px; color: aliceblue; margin: 30px;}
+.menu ul li a:hover {background-color: #f08c8c; border-radius: 3px;}
+.menu ul li input {margin-top: 10px; margin-left: 100px;}
+.menu ul li i {margin-left: 10px;}
+
+.btn ul {padding: 20px;}
+.btn ul li a {font-size: 20px; padding: 5px 10px; margin: 20px;}
+
+.login {background:#1bb100; margin-right:0; border-radius: 15px;}
+.login:hover {background:#b8faac;}
+.signup {background:#FFBF00; margin-right:0; border-radius: 15px;}
+.signup:hover {background:#ffeaac;}
+
+.board ul {padding: 100px;}
+
+/* 게시판 테이블 관련 */
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 70%;
+    margin: 20px 50px;
+    position: relative;
+    }
+    table * {
+    position: relative;
+    }
+    table td, table th {
+    padding-left: 8px;
+    }
+    table thead tr {
+    height: 60px;
+    background: #36304a;
+    }
+    table tbody tr {
+    height: 50px;
+    }
+    table tbody tr:last-child {
+    border: 0;
+    }
+    table td, table th {
+    text-align: left;
+    }
+    table td.l, table th.l {
+    text-align: right;
+    }
+    table td.c, table th.c {
+    text-align: center;
+    }
+    table td.r, table th.r {
+    text-align: center;
+    }
+    .table_bgbox {background-color: #a5a8c742; margin: 40px 40px 40px 0px; padding: 70px; border-radius: 10px;}
+
+    .table-head th{
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset;
+    }
+
+    tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+    }
+
+    tbody tr {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    font-weight: unset;
+    }
+
+    tbody tr:hover {
+    color: #555555;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    }
+
+    .column1 {
+    width: 160px;
+    padding-left: 40px;
+    text-align: center;
+    }
+
+    .column2 {
+    width: 360px;
+    text-align: center;
+    }
+
+    .column3 {
+    width: 260px;
+    text-align: center;
+    }
+
+    .column4 {
+    width: 110px;
+    text-align: center;
+    }
+
+    .column5 {
+    width: 110px;
+    text-align: center;
+    padding-right: 40px;
+    }
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 12px;
+}
