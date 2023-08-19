@@ -25,17 +25,17 @@ $mail = new PHPMailer(true);
                 // SMTP 서버 세팅
                 $mail->isSMTP();
                 // 구글 smtp 설정
-                $mail->Host = "smtp.gmail.com";
+                $mail->Host = "";
                 // SMTP 암호화 여부
                 $mail->SMTPAuth = true;
                 // SMTP 포트
-                $mail->Port = 465;
+                $mail->Port = ;
                 // SMTP 보안 프초트콜
                 $mail->SMTPSecure = "ssl";
                 // gmail 유저 아이디
-                $mail->Username = "1212guswjd@gmail.com";
-                // gmail 패스워드
-                $mail->Password ="lhj121305!";
+                $mail->Username = "";
+                // gmail 패스워
+                $mail->Password ="";
                 // 인코딩 셋
                 $mail->CharSet = 'utf-8';
                 $mail->Encoding = "base64";
